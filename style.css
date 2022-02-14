@@ -1,0 +1,70 @@
+
+/* my code is here  */
+/* body{
+    margin:200px 0px 0px 20px !important;
+} */
+body{
+    background-image: url(./water-drops-g9ffeb1b80_1920.jpg);
+}
+#player
+{
+    margin:10vw 0px 0px 40vw;
+    height: 65vh;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-radius: 20px;
+    background-color: white;
+    opacity:0.75;
+}
+#title
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+}
+#image>img{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    padding:10px;
+}
+#navigationBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navigationBtn>img{
+    margin:5px;
+}
+#play img{
+    height:50px;
+    width:50px;
+}
+.rotate{
+    animation: rotation 8s linear infinite;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  @media(max-width:800px)
+  {
+      #player
+  {
+      margin:15vw 0px 0px 25vw;
+  }
+  }
+@media(max-width:500px)
+{
+    #player
+{
+    margin:15vw 0px 0px 15vw;
+}
+}
